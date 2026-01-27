@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Documentation
+*.md
+docs/
+
+# Tests (本番ビルドでは除外)
+tests/
+pytest.ini
+.coveragerc
+
+# Docker
+Dockerfile*
+docker-compose*
+.docker
+
+# Misc
+.env*
+*.log
