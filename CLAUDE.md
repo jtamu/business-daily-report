@@ -131,28 +131,25 @@ business-daily-report/
 ## 技術スタック（推奨）
 
 ### バックエンド
-- **言語**: Node.js (TypeScript) / Python
-- **フレームワーク**: Express.js / NestJS / FastAPI
-- **データベース**: PostgreSQL 15.x / MySQL 8.0
+- **言語**: Python
+- **フレームワーク**: FastAPI
+- **データベース**: PostgreSQL 15.x
 - **認証**: JWT (JSON Web Token)
-- **ORM**: Prisma / TypeORM / SQLAlchemy
+- **ORM**: SQLAlchemy
 
 ### フロントエンド
-- **フレームワーク**: React / Vue.js / Next.js
+- **フレームワーク**: Next.js (App Router)
 - **言語**: TypeScript
-- **状態管理**: Redux / Zustand / Pinia
-- **UIライブラリ**: Material-UI / Ant Design / Tailwind CSS
-- **HTTPクライアント**: Axios / Fetch API
+- **UIライブラリ**: shadcn/ui + Tailwind CSS
+- **HTTPクライアント**: Axios
 
 ### テスト
-- **単体テスト**: Jest / Vitest
-- **E2Eテスト**: Playwright / Cypress
-- **APIテスト**: Postman / REST Client
+- **単体テスト**: Vitest
 
 ### インフラ
 - **Webサーバー**: Nginx
 - **コンテナ**: Docker / Docker Compose
-- **CI/CD**: GitHub Actions / GitLab CI
+- **CI/CD**: GitHub Actions
 
 ---
 
